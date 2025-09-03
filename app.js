@@ -2,4 +2,13 @@ function sum(a, b) {
   return a + b;
 }
 
-console.log(sum(2, 4));
+function multiply(a, b) {
+  return a * b;
+}
+
+function substract(a, b) {
+  return a - b;
+}
+
+const sumVal = sum(2, 3);
+console.log(sumVal);
