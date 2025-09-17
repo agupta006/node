@@ -15,4 +15,5 @@ function divide(a, b) {
 }
 
 const sumVal = sum(2, 3);
-console.log(sumVal);
+const divideVal = divide(10, 2);
+console.log(sumVal, divideVal);
